@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
+* {
+  box-sizing: border-box;
+}
+
+
 body {
   height: 100vh;
   margin: 0;
@@ -24,3 +29,46 @@ input {
   padding: 8px 24px;
   width: 400px;
 }
+
+/* My solution*/
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.header,
+.footer {
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between ;
+}
+
+.footer {
+  background-color: #eee;
+}
+
+
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  flex: 1;
+}
+
+a {
+  text-decoration: none;
+  color: #666;
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+  gap: 1rem;
+}
+
+
+
