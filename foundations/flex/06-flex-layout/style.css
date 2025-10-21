@@ -48,8 +48,6 @@ body {
   background-color: #eee;
 }
 
-
-
 .content {
   display: flex;
   flex-direction: column;
@@ -68,6 +66,12 @@ ul {
   display: flex;
   list-style-type: none;
   gap: 1rem;
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  padding: 0.5rem 1rem;
 }
 
 
